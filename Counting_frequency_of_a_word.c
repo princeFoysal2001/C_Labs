@@ -25,5 +25,5 @@ int main()
         if(!strcmpi(tempStr, inpWord))
             freqCount++;
     }
-    printf("%d", freqCount);
+    printf("Frequency of the word: %d\n", freqCount);
 }
